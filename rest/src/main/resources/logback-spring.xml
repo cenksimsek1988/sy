@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/defaults.xml" />
+    <property name="LOG_FILE" value="${LOG_FILE:-${LOG_PATH:-${LOG_TEMP:-${java.io.tmpdir:-/tmp}}/}spring.log}"/>
+    <include resource="org/springframework/boot/logging/logback/file-appender.xml" />
+
+    <!-- Send debug messages to a file "application.log" -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+
+        <file>./log/application.log</file>
+
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+            <FileNamePattern>application.%i.log</FileNamePattern>
+            <MinIndex>1</MinIndex>
+            <MaxIndex>10</MaxIndex>
+        </rollingPolicy>
+
+        <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+            <MaxFileSize>10MB</MaxFileSize>
+        </triggeringPolicy>
+    </appender>
+    
+    <root level="DEBUG">
+        <appender-ref ref="FILE" />
+    </root>
+    
+    <appender name="consoleAppender" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <charset>UTF-8</charset>
+            <Pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+        </encoder>
+    </appender>
+       <root level="INFO">
+        <appender-ref ref="consoleAppender" />
+    </root>
+    
+    <appender name="FILE1" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	    <file>./log/jpa.log</file>
+	    <encoder>
+	       <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+	    </encoder>
+	    
+	    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+	      <fileNamePattern>jpa.%i.log</fileNamePattern>
+	      <minIndex>1</minIndex>
+	      <maxIndex>10</maxIndex>
+	    </rollingPolicy>
+	     <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      		<maxFileSize>10MB</maxFileSize>
+    	</triggeringPolicy>
+	    
+	   
+  	</appender>
+  	
+  	<logger name="cenk.ozan.jpa" level="DEBUG">
+    	<appender-ref ref="FILE1" />
+    	<appender-ref ref="FILE" />
+  	</logger>
+  	
+  	
+  	 <appender name="FILE2" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	    <file>./log/backend.log</file>
+	    <encoder>
+	       <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+	    </encoder>
+	    
+	    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+	      <fileNamePattern>backend.%i.log</fileNamePattern>
+	      <minIndex>1</minIndex>
+	      <maxIndex>10</maxIndex>
+	    </rollingPolicy>
+	     <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      		<maxFileSize>10MB</maxFileSize>
+    	</triggeringPolicy>
+	    
+	   
+  	</appender>
+  	
+  	<logger name="cenk.ozan.backend" level="DEBUG">
+    	<appender-ref ref="FILE2" />
+    	<appender-ref ref="FILE" />
+  	</logger>
+  	
+  	<appender name="FILE3" class="ch.qos.logback.core.rolling.RollingFileAppender">
+	    <file>./log/rest.log</file>
+	    <encoder>
+	       <Pattern>%d{yyyy-MM-dd_HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</Pattern>
+	    </encoder>
+	    
+	    <rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
+	      <fileNamePattern>rest.%i.log</fileNamePattern>
+	      <minIndex>1</minIndex>
+	      <maxIndex>10</maxIndex>
+	    </rollingPolicy>
+	     <triggeringPolicy class="ch.qos.logback.core.rolling.SizeBasedTriggeringPolicy">
+      		<maxFileSize>10MB</maxFileSize>
+    	</triggeringPolicy>
+	    
+	   
+  	</appender>
+  	
+  	<logger name="cenk.ozan.rest" level="DEBUG">
+    	<appender-ref ref="FILE3" />
+    	<appender-ref ref="FILE" />
+  	</logger>	
+	
+</configuration>

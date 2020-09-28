@@ -1,0 +1,1204 @@
+2020-09-28_01:00:54.069 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Starting OzRestApi on DESKTOP-5DCPF0S with PID 4496 (C:\Users\aureo\git\ozan\ozan-rest\target\classes started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_01:00:54.069 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Starting OzRestApi on DESKTOP-5DCPF0S with PID 4496 (C:\Users\aureo\git\ozan\ozan-rest\target\classes started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_01:00:54.069 [restartedMain] DEBUG cenk.ozan.rest.OzRestApi - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_01:00:54.069 [restartedMain] DEBUG cenk.ozan.rest.OzRestApi - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_01:00:54.069 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - No active profile set, falling back to default profiles: default
+2020-09-28_01:00:54.069 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - No active profile set, falling back to default profiles: default
+2020-09-28_01:00:54.322 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-28_01:00:54.323 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-28_01:00:55.630 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-28_01:00:55.740 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95ms. Found 3 JPA repository interfaces.
+2020-09-28_01:00:59.009 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
+2020-09-28_01:00:59.077 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-28_01:00:59.077 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28_01:00:59.403 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-28_01:00:59.403 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5080 ms
+2020-09-28_01:00:59.575 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-28_01:01:00.128 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-28_01:01:00.151 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/ozan'
+2020-09-28_01:01:02.318 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28_01:01:02.477 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28_01:01:02.918 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28_01:01:03.407 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-09-28_01:01:06.240 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28_01:01:06.286 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28_01:01:07.953 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-28_01:01:08.145 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28_01:01:08.703 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28_01:01:09.324 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-28_01:01:09.889 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
+2020-09-28_01:01:09.921 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Started OzRestApi in 17.513 seconds (JVM running for 18.937)
+2020-09-28_01:01:09.921 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Started OzRestApi in 17.513 seconds (JVM running for 18.937)
+2020-09-28_01:01:10.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_01:01:10.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_01:01:10.738 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_01:01:10.754 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_01:01:10.769 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_01:01:13.895 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_01:01:13.895 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_01:01:13.897 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_01:01:13.897 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_01:01:13.897 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_01:01:13.897 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_01:01:13.898 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_01:01:13.899 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_01:01:13.899 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_01:01:13.899 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_01:01:13.899 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_01:01:13.900 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_01:06:39.590 [http-nio-5001-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-09-28_01:06:39.590 [http-nio-5001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-09-28_01:06:39.624 [http-nio-5001-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 34 ms
+2020-09-28_02:44:21.566 [main] INFO  c.o.r.t.integration.IntegrationTest - Starting IntegrationTest on DESKTOP-5DCPF0S with PID 10936 (started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_02:44:21.566 [main] INFO  c.o.r.t.integration.IntegrationTest - Starting IntegrationTest on DESKTOP-5DCPF0S with PID 10936 (started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_02:44:21.581 [main] DEBUG c.o.r.t.integration.IntegrationTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_02:44:21.581 [main] DEBUG c.o.r.t.integration.IntegrationTest - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_02:44:21.581 [main] INFO  c.o.r.t.integration.IntegrationTest - No active profile set, falling back to default profiles: default
+2020-09-28_02:44:21.581 [main] INFO  c.o.r.t.integration.IntegrationTest - No active profile set, falling back to default profiles: default
+2020-09-28_02:44:22.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-28_02:44:22.820 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 156ms. Found 3 JPA repository interfaces.
+2020-09-28_02:44:24.726 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28_02:44:24.979 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28_02:44:25.493 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28_02:44:26.491 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-28_02:44:26.948 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-28_02:44:27.073 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-09-28_02:44:29.092 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28_02:44:29.114 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28_02:44:32.319 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28_02:44:32.975 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28_02:44:34.051 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-28_02:44:34.292 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2020-09-28_02:44:34.292 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2020-09-28_02:44:34.401 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 109 ms
+2020-09-28_02:44:34.588 [main] INFO  c.o.r.t.integration.IntegrationTest - Started IntegrationTest in 14.279 seconds (JVM running for 15.695)
+2020-09-28_02:44:34.588 [main] INFO  c.o.r.t.integration.IntegrationTest - Started IntegrationTest in 14.279 seconds (JVM running for 15.695)
+2020-09-28_02:44:35.566 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_02:44:35.566 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_02:44:35.605 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_02:44:35.605 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_02:44:35.607 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_02:44:35.607 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_02:44:35.607 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_02:44:35.607 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_02:44:35.609 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_02:44:35.609 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_02:44:35.610 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_02:44:35.610 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_02:44:35.611 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_02:44:35.611 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_02:44:35.621 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_02:44:35.621 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_02:44:35.622 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_02:44:35.622 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_02:44:35.624 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_02:44:35.624 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_02:44:35.625 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_02:44:35.625 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_02:44:35.626 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_02:44:35.626 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_02:44:35.627 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_02:44:35.627 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_02:44:35.628 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_02:44:35.628 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_02:44:35.629 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:35.629 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:35.630 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_02:44:35.630 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_02:44:35.630 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_02:44:35.630 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_02:44:35.631 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_02:44:35.631 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_02:44:35.632 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_02:44:35.632 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_02:44:35.632 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:35.632 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:35.633 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:35.633 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:35.634 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:35.634 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:35.634 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:35.634 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:35.635 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:35.635 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:35.635 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:35.635 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:35.636 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:35.636 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:35.636 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:35.636 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:35.637 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:35.637 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:35.637 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:35.637 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:35.638 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:35.638 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:35.638 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:35.638 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:35.639 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:35.639 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:35.640 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:35.640 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:38.640 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_02:44:38.640 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_02:44:38.641 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_02:44:38.641 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_02:44:38.641 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_02:44:38.641 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_02:44:38.642 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_02:44:38.642 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_02:44:38.642 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_02:44:38.642 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:38.643 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:39.659 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:39.659 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_02:44:39.662 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:39.662 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:39.662 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:39.662 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:39.664 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:40.683 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:40.683 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_02:44:40.684 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:40.684 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_02:44:40.684 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:40.684 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_02:44:40.685 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:40.685 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:40.686 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:41.694 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:41.694 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_02:44:41.700 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:41.700 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_02:44:41.703 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:41.703 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_02:44:41.707 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:41.707 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_02:44:41.710 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:41.710 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_02:44:41.713 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:41.713 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_02:44:41.717 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:41.717 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_02:44:41.720 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:41.720 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_02:44:41.724 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:41.724 [main] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_02:44:46.620 [main] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'to' is not present]
+2020-09-28_02:44:46.656 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler - Shutting down ExecutorService 'taskScheduler'
+2020-09-28_02:44:46.656 [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-28_02:44:46.656 [SpringContextShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28_02:44:46.656 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-09-28_02:44:46.688 [SpringContextShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-09-28_04:10:42.762 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Starting OzRestApi on DESKTOP-5DCPF0S with PID 14056 (C:\Users\aureo\git\ozan\ozan-rest\target\classes started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_04:10:42.762 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Starting OzRestApi on DESKTOP-5DCPF0S with PID 14056 (C:\Users\aureo\git\ozan\ozan-rest\target\classes started by aureo in C:\Users\aureo\git\ozan\ozan-rest)
+2020-09-28_04:10:42.762 [restartedMain] DEBUG cenk.ozan.rest.OzRestApi - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_04:10:42.762 [restartedMain] DEBUG cenk.ozan.rest.OzRestApi - Running with Spring Boot v2.3.4.RELEASE, Spring v5.2.9.RELEASE
+2020-09-28_04:10:42.762 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - No active profile set, falling back to default profiles: default
+2020-09-28_04:10:42.762 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - No active profile set, falling back to default profiles: default
+2020-09-28_04:10:43.090 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-09-28_04:10:43.121 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-09-28_04:10:44.697 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-09-28_04:10:44.827 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 122ms. Found 3 JPA repository interfaces.
+2020-09-28_04:10:47.453 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 5001 (http)
+2020-09-28_04:10:47.472 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2020-09-28_04:10:47.488 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-09-28_04:10:47.754 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-09-28_04:10:47.754 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4633 ms
+2020-09-28_04:10:47.863 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-09-28_04:10:48.362 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-09-28_04:10:48.381 [restartedMain] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/ozan'
+2020-09-28_04:10:50.142 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-09-28_04:10:50.302 [restartedMain] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-09-28_04:10:50.821 [restartedMain] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-28_04:10:51.368 [restartedMain] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2020-09-28_04:10:53.639 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-28_04:10:53.667 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-09-28_04:10:54.798 [restartedMain] DEBUG o.s.w.f.CommonsRequestLoggingFilter - Filter 'requestLoggingFilter' configured for use
+2020-09-28_04:10:54.836 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2020-09-28_04:10:54.977 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-09-28_04:10:55.320 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-28_04:10:55.767 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2020-09-28_04:10:56.205 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 5001 (http) with context path ''
+2020-09-28_04:10:56.224 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Started OzRestApi in 14.62 seconds (JVM running for 16.518)
+2020-09-28_04:10:56.224 [restartedMain] INFO  cenk.ozan.rest.OzRestApi - Started OzRestApi in 14.62 seconds (JVM running for 16.518)
+2020-09-28_04:10:56.635 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:10:56.635 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:10:56.650 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:10:56.666 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:10:56.682 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:01.695 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:01.695 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:01.697 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:01.698 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:01.698 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:01.698 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:01.698 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:01.699 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:01.704 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:05.706 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:05.706 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:05.707 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:05.708 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:05.709 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:09.712 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:09.712 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HKD
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:09.717 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:09.733 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:09.748 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:09.998 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:09.998 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:13.755 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:13.755 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:13.756 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:13.756 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:13.756 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:13.756 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=DKK
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CHF
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:13.757 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MXN
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CZK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SGD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:13.758 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:16.346 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:16.346 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:16.693 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:16.693 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:16.974 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:16.974 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.239 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.239 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.540 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.540 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=THB
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HRK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=MYR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NOK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CNY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BGN
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PHP
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=SEK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=PLN
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ZAR
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=CAD
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ISK
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=BRL
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RON
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:17.763 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:17.779 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:17.794 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:17.794 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.060 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.060 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.310 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.310 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.574 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:18.574 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.336 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.336 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.606 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.606 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.864 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:19.864 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.129 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.129 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.395 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.395 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.660 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.660 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.953 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:20.953 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.203 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.203 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.483 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.483 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.733 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.733 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=GBP
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=IDR
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=ILS
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=INR
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=NZD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=TRY
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=JPY
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=RUB
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=KRW
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=USD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=HUF
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=AUD
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:21.793 [restartedMain] DEBUG c.ozan.backend.service.OzRateFetcher - url: https://api.ratesapi.io/api/latest?base=EUR
+2020-09-28_04:11:22.074 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:22.074 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:22.340 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:22.340 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:22.935 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:22.935 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.194 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.194 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.447 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.447 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.603 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.603 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.838 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:23.838 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.119 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.119 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.275 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.275 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.448 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.448 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.718 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.718 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.890 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:24.890 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.062 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.062 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.296 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.296 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.499 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.499 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.686 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.686 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:25.885 [restartedMain] INFO  c.ozan.backend.service.OzRateFetcher - All currencies are fetched
+2020-09-28_04:11:25.885 [restartedMain] INFO  c.ozan.backend.service.OzRateFetcher - All currencies are fetched
+2020-09-28_04:11:25.885 [restartedMain] INFO  c.o.r.OzRestApi$$EnhancerBySpringCGLIB$$6bedb4c9 - Ready to go!
+2020-09-28_04:11:25.885 [restartedMain] INFO  c.o.r.OzRestApi$$EnhancerBySpringCGLIB$$6bedb4c9 - Ready to go!
+2020-09-28_04:11:26.468 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:26.468 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:26.708 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:26.708 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:26.937 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:26.937 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.140 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.140 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.344 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.344 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.542 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.542 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.747 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:27.747 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.030 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.030 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.213 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.213 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.401 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.401 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.577 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.577 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.755 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.755 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.943 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:28.943 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.130 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.130 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.302 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.302 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.474 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.474 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.646 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.646 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.833 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:29.833 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.005 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.005 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.161 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.161 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.317 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.317 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.514 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.514 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.670 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.670 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.838 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:30.838 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.041 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.041 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.197 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.197 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.400 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.400 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.619 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.619 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.806 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:31.806 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.018 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.018 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.348 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.348 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.474 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.474 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.607 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.607 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.829 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.829 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.854 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:42.854 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.002 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.002 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.045 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.045 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.191 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.191 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.227 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.227 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.367 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.367 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.385 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.385 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.548 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.627 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.627 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:43.548 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.106 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.106 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.116 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.116 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.405 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.405 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.419 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.419 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.598 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.598 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.608 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.608 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.779 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.791 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.791 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.779 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.943 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.943 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.958 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:44.958 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.126 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.126 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.133 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.133 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.291 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.291 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.303 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.303 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.454 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.454 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.463 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.463 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.624 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.624 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.631 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.631 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.803 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.803 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.812 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.812 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.984 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.984 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.994 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:45.994 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:47.271 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:47.271 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:48.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:48.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:48.784 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:48.784 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:49.690 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:49.690 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.788 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.788 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.854 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.854 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.994 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:50.994 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.074 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.074 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.246 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.246 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.504 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.504 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.505 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.505 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.661 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.661 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.671 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.671 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.804 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.804 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.814 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.814 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.941 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.941 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.972 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:51.972 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.100 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.100 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.131 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.131 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.240 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.240 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.271 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.271 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.396 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.396 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.425 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.425 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.540 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.540 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.571 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.571 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.696 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.696 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.712 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.712 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.805 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.805 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.855 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.855 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.933 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.933 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.980 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:52.980 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.058 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.058 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.120 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.120 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.198 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.198 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.245 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.245 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.323 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.323 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.405 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.405 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.461 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.461 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.524 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.524 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.586 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.586 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.664 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.664 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.805 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.805 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.821 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.821 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.930 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.930 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.942 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:53.942 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.067 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.067 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.208 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.208 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.223 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.223 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.494 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.494 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.494 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.494 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.623 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.623 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.641 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.641 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.751 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.751 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.782 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.782 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.876 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.876 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.907 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:54.907 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.001 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.001 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.049 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.049 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.143 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.143 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.190 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.190 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.268 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.268 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.346 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.346 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.408 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.408 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.504 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.504 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.565 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.565 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.643 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.643 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.690 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.690 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.831 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.831 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.878 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.878 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.971 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:55.971 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.018 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.018 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.118 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.118 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.149 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.149 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.259 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.259 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.290 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.290 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.385 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.385 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.427 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.427 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.505 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.505 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.567 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.567 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.630 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.630 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.692 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.692 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.755 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.755 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.833 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.833 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.880 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.880 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.973 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:56.973 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.005 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.005 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.098 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.128 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.128 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.238 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.238 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.269 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.269 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.377 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.377 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.418 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.418 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.487 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.487 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.549 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.549 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.612 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.612 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.674 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.674 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.752 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.752 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.815 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.815 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.877 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:11:57.877 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:28.110 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:28.110 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:32.231 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:32.231 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:36.077 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
+2020-09-28_04:13:36.077 [OkHttp https://api.ratesapi.io/...] DEBUG c.ozan.backend.service.OzRateService - Exchange rates for currency {} is fetched from rates-api
