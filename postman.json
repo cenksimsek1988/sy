@@ -1,0 +1,431 @@
+{
+	"info": {
+		"_postman_id": "3b3fbfbf-2ccf-4125-a08f-9a0574060cbe",
+		"name": "SY",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insert player",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"birthYear\" : 1998,\r\n  \"name\" : \"kylian sanmi mbappé lottin\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/player",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"player"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update player",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contracts\" : [ {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2020\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2019\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2018\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2017\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2016\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2015\r\n  }, {\r\n    \"team\" : {\r\n      \"id\" : 164\r\n    },\r\n    \"year\" : 2014\r\n  } ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/player/162",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"player",
+						"162"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete player",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"url": {
+					"raw": "localhost:5001/jpa/player/10",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"player",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list players",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transactionId\": 164325,\r\n    \"transactionDate\": \"2020-09-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/players",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"players"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "EUR",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "TRY",
+							"disabled": true
+						},
+						{
+							"key": "amount",
+							"value": "500",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list players by year and team",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transactionId\": 164325,\r\n    \"transactionDate\": \"2020-09-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/player?year=2019&teamId=30",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"player"
+					],
+					"query": [
+						{
+							"key": "year",
+							"value": "2019"
+						},
+						{
+							"key": "teamId",
+							"value": "30"
+						},
+						{
+							"key": "amount",
+							"value": "500",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "insert team",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"currency\" : {\r\n    \"id\" : 33\r\n  },\r\n  \"name\" : \"real madrid\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/team",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"team"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update team",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"url": {
+					"raw": "localhost:5001/jpa/team/10",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"team",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete team",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Origin",
+						"type": "text",
+						"value": "http://localhost:3000"
+					}
+				],
+				"url": {
+					"raw": "localhost:5001/jpa/team/10",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"team",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list teams",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transactionId\": 164325,\r\n    \"transactionDate\": \"2020-09-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/teams",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"teams"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "EUR",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "TRY",
+							"disabled": true
+						},
+						{
+							"key": "amount",
+							"value": "500",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list teams by player",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/jpa/team?playerId=20",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"team"
+					],
+					"query": [
+						{
+							"key": "playerId",
+							"value": "20"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list currencies",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"transactionId\": 164325,\r\n    \"transactionDate\": \"2020-09-28\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:5001/jpa/currencies",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"jpa",
+						"currencies"
+					],
+					"query": [
+						{
+							"key": "from",
+							"value": "EUR",
+							"disabled": true
+						},
+						{
+							"key": "to",
+							"value": "TRY",
+							"disabled": true
+						},
+						{
+							"key": "amount",
+							"value": "500",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "contract value by player",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5001/api/value?playerId=162",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"api",
+						"value"
+					],
+					"query": [
+						{
+							"key": "playerId",
+							"value": "162"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
