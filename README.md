@@ -5,7 +5,7 @@
 - Create a corresponding database according to application.properties which is located under config folder
 - Double click start.bat and wait until console logs "Ready to go!"
 
-##With Source Code
+## With Source Code
 - Clone the repository into your ide
 - Create two corresponding databases according to application.properties and test.properties which are located under config folder
 - Run SyRestApi under sy-rest module
