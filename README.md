@@ -15,7 +15,7 @@
 - Start using the 12 APIs
 
 ## Centralized Logging
-- There are 4 log files: application.log which contains all of the logs, jpa.log, backend.log and rest.log instead contains the logs according to modules.
+- There are 4 log files: application.log which contains all of the logs, jpa.log, backend.log and rest.log instead contain the logs according to modules.
 - All the logs are in debug level and they will be fragmented if they exceed 10 MB
 - In order to change logging configuration, you should manipulate spring-logback.xml
 - spring-logback.xml file is located under config folder of sy-rest module
